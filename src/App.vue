@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <blink><h1>text blinks here</h1></blink>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Blink from './components/Blink';
 
 export default {
-  name: 'app',
   components: {
-    HelloWorld
+    Blink
   }
 }
 </script>
