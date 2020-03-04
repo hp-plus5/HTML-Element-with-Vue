@@ -1,29 +1,15 @@
 # html-element-with-vue
 
-## Project setup
-```
-npm install
-```
+This is a project made during a Vue presentation made by Joe Erickson. It was a demo to show how to make a custom HTML tag from within Vue. Files to note are the build script in the package.json and the Blink.vue component as a whole. Because we export just the component, I don't think it matters what the content is of the main.js or the App.vue.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Project setup
+
+npm install
 
 ### Compiles and minifies for production
-```
+
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
